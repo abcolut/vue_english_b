@@ -24,3 +24,10 @@ logs
 .env
 .env.*
 !.env.example
+
+
+dist/
+coverage/
+.DS_Store
+Thumbs.db
+_plan.txt

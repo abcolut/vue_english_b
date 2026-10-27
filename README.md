@@ -1,75 +1,39 @@
-# Nuxt Minimal Starter
+# Pet project on vue (nuxt)
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+    Тренировка английского языка B+ 
+
+    В рамках подготовки сдачи экзамена English И была написана программа тренировки времен глаголов 
+    совершенного и продолженного времени. 
+
+## Как работает программа
+    Программа показывает предложение - пользователю нужно определить в каком времени находится глагол. 
+    Ведется статистика прохождения тестов и сортировка карточек заданий. 
+    пользователь может при помощи встроенного скрипта сформировать свой список вопросов для теста
+
+## Используемые технолгии 
+    - vuetify, 
+    - localstorage, 
+    - для покрытия тестов компоненты разбивались на логические модули
 
 ## Setup
 
-Make sure to install dependencies:
+    # npm
+    npm install
 
-```bash
-# npm
-npm install
-
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
-```
 
 ## Development Server
 
-Start the development server on `http://localhost:3000`:
+    Start the development server on `http://localhost:3000`:
 
-```bash
-# npm
-npm run dev
+    # npm
+    npm run dev
 
-# pnpm
-pnpm dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
-```
 
 ## Production
 
-Build the application for production:
+    Build the application for production:
 
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
+    # npm
+    npm run build
 
 Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
